@@ -1,0 +1,23 @@
+jayantprakash@Jayants-MacBook-Pro Assignment2 % python3 assignment2.py
+Data loaded.
+Number of Images:  1348
+Number of Features:  2914
+Number of classes:  8
+Best Parameters: 
+  {'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.69      0.79      0.73        14
+     Colin Powell       0.81      0.83      0.82        46
+  Donald Rumsfeld       0.88      0.70      0.78        30
+    George W Bush       0.80      0.94      0.86        95
+Gerhard Schroeder       0.88      0.72      0.79        29
+      Hugo Chavez       0.93      0.87      0.90        15
+Junichiro Koizumi       0.67      0.75      0.71         8
+       Tony Blair       0.84      0.64      0.72        33
+
+         accuracy                           0.81       270
+        macro avg       0.81      0.78      0.79       270
+     weighted avg       0.82      0.81      0.81       270
+
+jayantprakash@Jayants-MacBook-Pro Assignment2 % 
